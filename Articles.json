@@ -1,0 +1,27 @@
+[
+    {
+        "url" : "https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt2763c87396744f77/60dbbb0822d24e38a38af124/12780_3-1-12780.jpg?format=pjpg&auto=webp&quality=75%2C90&width=3840",
+        "nom" : "Chevalières",
+        "prix": 100,
+        "stock": 5
+
+    },
+    {
+        "url" : "https://champsdor.com/cdn/shop/files/PHBJSH_Front.jpg?v=1698228659&width=1080",
+        "nom" : "Montre Noir Quartz",
+        "prix": 500,
+        "stock" : 2
+    },
+    {
+        "url":"https://www.or-argent.be/25177-large_default/collier-homme-double-plaque-206540.jpg",
+        "nom":"Collier avec plaque en argent",
+        "prix":250,
+        "stock":4
+    },
+    {
+        "url" :"https://eu-images.contentstack.com/v3/assets/blt7dcd2cfbc90d45de/blt5d417a46d3ec0937/62fa1f23f0838754ddfc0669/7-1.fe3a666e89f6e1425e465eb752d9ed3f_8.jpg?format=pjpg&auto=webp&quality=75%2C90&width=828",
+        "nom":"Bague en cuivre",
+        "prix":50,
+        "stock":20
+    }
+]
