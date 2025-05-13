@@ -1,8 +1,8 @@
-function Budget (){
+function Budget (props){
     return(
         <div>
             <div>
-                <h1>Mon Budget : 1000Eu</h1>
+                <h1>Mon Budget :{props.budget} Eu</h1>
                 </div>   
         </div>
     )

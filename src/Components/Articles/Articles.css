@@ -4,6 +4,8 @@
 }
 .card{
     border: 2px black solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
 }
 .buy{
     background-color: greenyellow;
@@ -12,8 +14,20 @@
     border-radius: 3px;
     height: 30px;
     width: 75px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 }
 .buy:hover{
     cursor: pointer;
     background-color: lightgreen;
+}
+.price{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
 }
