@@ -1,17 +1,26 @@
-function Panier(props){
+function Panier(props) {
     console.log(props.article);
-    
-    return(
+
+    return (
         <div>
             <div>
                 <div>
-                 <h3>Panier :</h3>   
+                    <h3>Panier :</h3>
                 </div>
-             {
-                props.article.map(article =>(
-                    <p> {article.nom} {article.quantite}  </p>
-                ))
-             } 
+                {
+                    props.article.map(article => (
+
+                        <div>
+                            {
+                                article.
+                            }
+                            <p> {article.nom} x {article.quantite}  </p>
+                            {/* {article.quantite >= 1 ? article.nom : ''} */}
+                        </div>
+                    ))
+                }
+
+                <button>Retourner</button>
             </div>
         </div>
     )

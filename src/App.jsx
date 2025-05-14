@@ -11,7 +11,7 @@ function App() {
   const acheter = (article)=>{
     setBudget(budget- article.prix)
     article.stock=article.stock-1
-    console.log(article.stock);
+   article.quantite=article.quantite+1
     
   }
   
