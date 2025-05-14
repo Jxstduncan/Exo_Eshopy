@@ -27,7 +27,13 @@
 }
 .orange{
     background-color: orange;
+    border: 2px black solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
 }
 .red{
     background-color: red;
+    border: 2px black solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
 }

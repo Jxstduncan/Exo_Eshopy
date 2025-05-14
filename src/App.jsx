@@ -3,6 +3,7 @@ import articles from '../Articles.json'
 import './App.css'
 import Articles from './Components/Articles/Articles'
 import Budget from './Components/Budget/Budget'
+import Panier from './Components/Panier/Panier'
 
 
 function App() {
@@ -13,8 +14,11 @@ function App() {
     console.log(article.stock);
     
   }
+  
+  
   return (
     <>
+   
       <Budget budget={budget} />
      <div className='df'>
       {
@@ -22,6 +26,7 @@ function App() {
           <Articles article={article} acheter={acheter} budget={budget} />
         ))
       }
+       <Panier article={articles} />
      </div>
     </>
   )
