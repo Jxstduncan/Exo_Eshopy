@@ -1,5 +1,5 @@
 function Panier(props) {
-    console.log(props.article);
+
 
     return (
         <div>
@@ -12,15 +12,16 @@ function Panier(props) {
 
                         <div>
                             {
-                                article.
+                                article.quantite>=1 && <div><p> {article.nom} x {article.quantite}  </p>
+                            <button onClick={()=>props.rendre(article)}>Retourner</button></div>
                             }
-                            <p> {article.nom} x {article.quantite}  </p>
+                            
                             {/* {article.quantite >= 1 ? article.nom : ''} */}
                         </div>
                     ))
                 }
 
-                <button>Retourner</button>
+                
             </div>
         </div>
     )

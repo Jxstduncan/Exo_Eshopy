@@ -11,7 +11,13 @@ function App() {
   const acheter = (article)=>{
     setBudget(budget- article.prix)
     article.stock=article.stock-1
-   article.quantite=article.quantite+1
+   article.quantite=article.quantite+1  
+  }
+  const rendre = (article)=>{
+    article.stock+=1
+    article.quantite-=1
+    console.log(article);
+    setBudget(budget+article.prix)
     
   }
   
@@ -26,7 +32,7 @@ function App() {
           <Articles article={article} acheter={acheter} budget={budget} />
         ))
       }
-       <Panier article={articles} />
+       <Panier article={articles} rendre={rendre} />
      </div>
     </>
   )
