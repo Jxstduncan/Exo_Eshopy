@@ -1,5 +1,6 @@
 .img{
     height: 230px;
+    width: 230px;
    
 }
 .card{
@@ -24,6 +25,7 @@
 .price{
     margin-left: 10px;
     margin-bottom: 5px;
+    color: white;
 }
 .orange{
     background-color: orange;
@@ -36,4 +38,7 @@
     border: 2px black solid;
     border-radius: 3px;
     margin-bottom: 10px;
+}
+#name{
+    color: white;
 }
